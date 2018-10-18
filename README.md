@@ -1,56 +1,57 @@
 # SoftEtherHTTPAPI
 SoftEther HTTP API <br />
 В заголовке отправляем:<br />
-    token: 76d2ed410c9d5dc55bcb305ddcc8f25e<br />
-    hubname: название хаба<br />
+    <b>token</b>: 76d2ed410c9d5dc55bcb305ddcc8f25e</p>
+    <b>hubname</b>: название хаба<br /><br />
 
 Методы:
-sessions - список сессий
+<b>sessions</b> - список сессий
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Headers</b>:
         - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
         - hubname: название хаба
-        GET
-all_users - список всех пользователей
+        <b>GET</b>
+<b>all_users</b> - список всех пользователей
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Headers</b>:
         - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
         - hubname: название хаба
-        GET
-new_user - создание пользователя
+        <b>GET</b>
+<b>new_user</b> - создание пользователя
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Header</b>s:
         - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
-        POST:
+        <b>POST</b>:
         - hubname: хаб,
         - username: логин,
         - password: пароль,
         - description: описание,
         - group: группа
-delete_user - удаление пользователя
+<b>delete_user</b> - удаление пользователя
     ПАРАМЕТРЫ:
         - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
         - hubname: хаб,
         - username: логин,
-user_details - информация о пользователе
+    <b>DELETE</b>
+<b>user_details</b> - информация о пользователе
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Headers</b>:
         - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
-        GET:
+        <b>GET</b>:
         - hubname: хаб,
         - username: логин,
-get_groups - список всех групп
+<b>get_groups</b> - список всех групп
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Headers</b>:
             - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
             - hubname: название хаба
-getDhcp - проверка параметров DHCP сервера
+<b>getDhcp</b> - проверка параметров DHCP сервера
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Headers</b>:
             - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
             - hubname: название хаба
-getServerInfo - информация о сервере
+<b>getServerInfo</b> - информация о сервере
     ПАРАМЕТРЫ:
-        Headers:
+        <b>Headers</b>:
             - token: 76d2ed410c9d5dc55bcb305ddcc8f25e
             - hubname: название хаба

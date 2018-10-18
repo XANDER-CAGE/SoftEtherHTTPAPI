@@ -1,8 +1,8 @@
 # SoftEtherHTTPAPI
-SoftEther HTTP API
-В заголовке отправляем:
-    token: 76d2ed410c9d5dc55bcb305ddcc8f25e
-    hubname: название хаба
+SoftEther HTTP API <br />
+В заголовке отправляем:<br />
+    token: 76d2ed410c9d5dc55bcb305ddcc8f25e<br />
+    hubname: название хаба<br />
 
 Методы:
 sessions - список сессий
